@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Ví dụ nhúng TT16 Player</title>
+</head>
+<body style="margin:0">
+  <div id="tt16-map"></div>
+
+  <!-- Chỉ cần add một script -->
+  <script src="../tt16-player.js"></script>
+  <script>
+    TT16Player.mount("#tt16-map", {
+      editable: true,
+      scale: 2000,
+      height: 720
+    });
+  </script>
+</body>
+</html>
