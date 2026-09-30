@@ -1,0 +1,816 @@
+[
+  {
+    "id": "BV_Rg_quocgia",
+    "label": "Ranh giới quốc gia",
+    "category": "01 · Ranh giới chung",
+    "geometry": "line",
+    "aci": 206,
+    "scales": [
+      500,
+      2000,
+      5000,
+      10000
+    ]
+  },
+  {
+    "id": "BV_Rg_captinh",
+    "label": "Ranh giới tỉnh/thành phố",
+    "category": "01 · Ranh giới chung",
+    "geometry": "line",
+    "aci": 238,
+    "scales": [
+      500,
+      2000,
+      5000,
+      10000
+    ]
+  },
+  {
+    "id": "BV_Rg_capcoso",
+    "label": "Ranh giới xã/phường/đặc khu",
+    "category": "01 · Ranh giới chung",
+    "geometry": "line",
+    "aci": 14,
+    "scales": [
+      500,
+      2000,
+      5000,
+      10000
+    ]
+  },
+  {
+    "id": "BV_Rg_lapquyhoach",
+    "label": "Ranh giới lập quy hoạch",
+    "category": "01 · Ranh giới chung",
+    "geometry": "line",
+    "aci": 1,
+    "scales": [
+      500,
+      2000,
+      5000,
+      10000
+    ]
+  },
+  {
+    "id": "DAT_DD_Donvio",
+    "label": "Đơn vị ở",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 30,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_DD_Honhop",
+    "label": "Hỗn hợp (đơn vị ở và dịch vụ - công cộng)",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 22,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_DD_DVCCdothi",
+    "label": "Dịch vụ - công cộng cấp đô thị",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 1,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_DD_Coquandothi",
+    "label": "Cơ quan, trụ sở cấp đô thị",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 34,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_DD_CayxanhCCdothi",
+    "label": "Cây xanh sử dụng công cộng cấp đô thị",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 72,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_DD_Giaothongdothi",
+    "label": "Giao thông đô thị",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 8,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_DD_HTkhacdothi",
+    "label": "Hạ tầng kỹ thuật khác cấp đô thị",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 195,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NDD_Congnghiep",
+    "label": "Sản xuất công nghiệp",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 192,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NDD_Daotao",
+    "label": "Trung tâm đào tạo, nghiên cứu",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 144,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NDD_Coquan",
+    "label": "Cơ quan, trụ sở ngoài đô thị",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 46,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NDD_Yte",
+    "label": "Trung tâm y tế",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 220,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NDD_Vanhoathethao",
+    "label": "Trung tâm văn hóa, thể dục thể thao",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 94,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NDD_Dulich",
+    "label": "Dịch vụ, du lịch",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 210,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NDD_CayxanhSDHC",
+    "label": "Cây xanh sử dụng hạn chế",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 94,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NDD_CayxanhCD",
+    "label": "Cây xanh chuyên dụng",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 126,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NDD_Ditich",
+    "label": "Di tích, tôn giáo",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 16,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NDD_DancuNT",
+    "label": "Điểm dân cư nông thôn",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 57,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NDD_Anninh",
+    "label": "An ninh",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 64,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NDD_Quocphong",
+    "label": "Quốc phòng",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 79,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NNK_Nongnghiep",
+    "label": "Sản xuất nông nghiệp",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 3,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NNK_Rungsanxuat",
+    "label": "Rừng sản xuất",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 107,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NNK_Rungphongho",
+    "label": "Rừng phòng hộ",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 129,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NNK_Rungdacdung",
+    "label": "Rừng đặc dụng",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 148,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NNK_Thuysan",
+    "label": "Nuôi trồng thủy sản",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 150,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NNK_Chuasudung",
+    "label": "Đất chưa sử dụng",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 9,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NNK_Honuoc",
+    "label": "Hồ, ao, đầm",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 154,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NNK_Songsuoi",
+    "label": "Sông, suối, kênh, rạch",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 152,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_NNK_Matnuocbien",
+    "label": "Mặt nước ven biển",
+    "category": "02 · QHC đô thị 1/10.000",
+    "geometry": "polygon",
+    "aci": 152,
+    "scales": [
+      10000
+    ]
+  },
+  {
+    "id": "DAT_DD_Nhomnhao",
+    "label": "Nhóm nhà ở",
+    "category": "03 · QHC đô thị 1/5.000",
+    "geometry": "polygon",
+    "aci": 42,
+    "scales": [
+      5000
+    ]
+  },
+  {
+    "id": "DAT_DD_Honhop_Nhomo",
+    "label": "Hỗn hợp nhóm nhà ở và dịch vụ",
+    "category": "03 · QHC đô thị 1/5.000",
+    "geometry": "polygon",
+    "aci": 22,
+    "scales": [
+      5000
+    ]
+  },
+  {
+    "id": "DAT_DD_TruongTHPT",
+    "label": "Giáo dục - Trường THPT",
+    "category": "03 · QHC đô thị 1/5.000",
+    "geometry": "polygon",
+    "aci": 24,
+    "scales": [
+      5000
+    ]
+  },
+  {
+    "id": "DAT_DD_Truonghoc",
+    "label": "Giáo dục - THCS/Tiểu học/Mầm non",
+    "category": "03 · QHC đô thị 1/5.000",
+    "geometry": "polygon",
+    "aci": 15,
+    "scales": [
+      5000
+    ]
+  },
+  {
+    "id": "DAT_O_Nhomnhao",
+    "label": "Nhóm nhà ở",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 42,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_O_Honhop_Nhomo",
+    "label": "Hỗn hợp nhóm nhà ở và dịch vụ",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 22,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_O_Langxom",
+    "label": "Khu làng xóm, dân cư nông thôn",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 57,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_HTXH_Yte",
+    "label": "Y tế",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 220,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_HTXH_Vanhoa",
+    "label": "Văn hóa",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 243,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_HTXH_Theducthethao",
+    "label": "Thể dục thể thao",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 94,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_HTXH_TruongTHPT",
+    "label": "Giáo dục - Trường THPT",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 24,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_HTXH_Truonghoc",
+    "label": "Giáo dục - THCS/Tiểu học/Mầm non",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 15,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_HTXH_CayxanhCC",
+    "label": "Cây xanh sử dụng công cộng",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 72,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_Cayxanhhanche",
+    "label": "Cây xanh sử dụng hạn chế",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 94,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_Cayxanhchuyendung",
+    "label": "Cây xanh chuyên dụng",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 126,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_SX_Congnghiep",
+    "label": "Sản xuất, kho bãi",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 192,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_SX_Vatlieu",
+    "label": "Khai thác/chế biến khoáng sản, VLXD",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 175,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_DaotaoNC",
+    "label": "Đào tạo, nghiên cứu",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 144,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_Coquan",
+    "label": "Cơ quan, trụ sở",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 34,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_Dichvu",
+    "label": "Khu dịch vụ",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 12,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_Dulich",
+    "label": "Khu dịch vụ - du lịch",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 210,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_Ditich_tongiao",
+    "label": "Di tích, tôn giáo",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 16,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_Anninh",
+    "label": "An ninh",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 64,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_Quocphong",
+    "label": "Quốc phòng",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 79,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_HTKT_DuongGT",
+    "label": "Đường giao thông",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 251,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_HTKT_Baidoxe",
+    "label": "Bãi đỗ xe",
+    "category": "04 · QH phân khu 1/2.000–1/5.000",
+    "geometry": "polygon",
+    "aci": 252,
+    "scales": [
+      2000,
+      5000
+    ]
+  },
+  {
+    "id": "DAT_NO_Nhaolienke",
+    "label": "Đất nhà ở liền kề",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 32,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_NO_Nhaobietthu",
+    "label": "Đất nhà ở biệt thự",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 56,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_NO_Nhaochungcu",
+    "label": "Đất nhà chung cư",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 40,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_NO_NhaochungcuHH",
+    "label": "Đất nhà chung cư hỗn hợp",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 44,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_NO_Nhaonongthon",
+    "label": "Đất nhà ở nông thôn/làng xóm đô thị hóa",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 57,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_CTHTXH_Vanhoa",
+    "label": "Đất văn hóa",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 243,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_CTHTXH_Yte",
+    "label": "Đất y tế",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 220,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_CTHTXH_TruongTHPT",
+    "label": "Đất giáo dục - THPT",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 24,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_CTHTXH_Truonghoc",
+    "label": "Đất giáo dục - THCS/Tiểu học/Mầm non",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 15,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_CTHTXH_Theducthethao",
+    "label": "Đất thể dục thể thao",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 94,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_CTHTXH_CayxanhCC",
+    "label": "Đất cây xanh sử dụng công cộng",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 72,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_CTHTXD_ThuongmaiDV",
+    "label": "Đất thương mại dịch vụ",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 12,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_CTSX_Congnghiep",
+    "label": "Đất công trình sản xuất công nghiệp/TTCN/kho tàng",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 192,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_CT_Daotaonghiencuu",
+    "label": "Đất trung tâm nghiên cứu, đào tạo",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 144,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_CT_Coquan",
+    "label": "Đất cơ quan, trụ sở",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 34,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_CT_Dichvu",
+    "label": "Đất công trình dịch vụ",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 12,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_CT_Dulich",
+    "label": "Đất công trình dịch vụ du lịch",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 210,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_CT_Ditichtongiao",
+    "label": "Đất di tích, tôn giáo",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 16,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_CT_Cayxanhhanche",
+    "label": "Đất cây xanh sử dụng hạn chế",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 94,
+    "scales": [
+      500
+    ]
+  },
+  {
+    "id": "DAT_CT_Cayxanhchuyendung",
+    "label": "Đất cây xanh chuyên dụng",
+    "category": "05 · QH chi tiết 1/500",
+    "geometry": "polygon",
+    "aci": 126,
+    "scales": [
+      500
+    ]
+  }
+]
