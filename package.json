@@ -1,0 +1,21 @@
+{
+  "name": "tt16-map-editor-player",
+  "version": "0.1.0",
+  "description": "Embeddable browser map editor with TT16/2025/TT-BXD planning-layer metadata.",
+  "license": "MIT",
+  "author": "Long Ngo",
+  "main": "tt16-player.js",
+  "files": [
+    "tt16-player.js",
+    "catalog/tt16-symbols.json"
+  ],
+  "keywords": [
+    "gis",
+    "webgis",
+    "planning",
+    "vietnam",
+    "tt16",
+    "map-editor",
+    "leaflet"
+  ]
+}
