@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TT16 Map Editor Player</title>
+  <meta name="description" content="Player biên tập bản đồ nhúng nhanh theo metadata Phụ lục I Thông tư 16/2025/TT-BXD.">
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;background:#f5f7fa;color:#172033;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif}
+    .page{max-width:1600px;margin:auto;padding:18px}
+    .hero{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:14px}
+    h1{margin:0;font-size:28px;letter-spacing:-.03em}
+    p{margin:7px 0 0;color:#667085;max-width:800px}
+    code{background:#eef2f7;padding:2px 5px;border-radius:5px}
+    .badge{background:#eaf2ff;color:#174ea6;border:1px solid #cfe0ff;padding:7px 9px;border-radius:999px;font-size:12px;font-weight:700;white-space:nowrap}
+    .note{font-size:12px;color:#667085;margin-top:10px}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="hero">
+      <div>
+        <h1>TT16 Map Editor Player</h1>
+        <p>Trình biên tập WebGIS nhúng nhanh: chọn tỷ lệ, chọn phân lớp TT16, vẽ điểm/tuyến/vùng, chỉnh thuộc tính và xuất GeoJSON.</p>
+      </div>
+      <div class="badge">MIT · Long Ngo phát triển</div>
+    </div>
+
+    <div id="tt16-map"></div>
+    <div class="note">Màu trên web là màu xem nhanh. Chỉ số ACI được lưu trong metadata để phục vụ quy trình CAD/QGIS.</div>
+  </div>
+
+  <script src="./tt16-player.js"></script>
+  <script>
+    TT16Player.mount("#tt16-map", {
+      editable: true,
+      scale: 5000,
+      phase: "QHDD",
+      center: [10.25, 106.38],
+      zoom: 11,
+      height: 760
+    });
+  </script>
+</body>
+</html>
